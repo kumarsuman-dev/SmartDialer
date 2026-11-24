@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+package-lock.json.bak
+
+# Compilation / Build outputs
+dist/
+
+# Test & coverage artifacts
+coverage/
+*.lcov
+
+# Temporary database / WAL persistence
+data/
+*.wal
+*.tmp
+snapshot.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / Editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
